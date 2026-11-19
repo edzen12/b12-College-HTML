@@ -217,3 +217,49 @@ p{
     padding-bottom: 2px;
     font-size: 14px;
 }
+
+/* idea */
+.idea{
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(20, 39, 75); 
+}
+.ideaBlock{
+    padding-top: 50px;
+    display: flex;
+}
+.ideaText{
+    width: 50%;
+}
+.ideaBanner{
+    width: 50%;
+}
+.ideaBanner img{
+    width: 100%;
+    border-radius: 20px;
+}
+.ideaText p:first-child{
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.ideaText h1{
+    margin-top: 10px;
+    font-size: 55px;
+}
+.ideaLine {
+    display: flex;
+}
+.ideaLine{
+    margin-top: 20px;
+}
+.ideaLine h4{
+    margin: 0;
+}
+.ideaLineText {
+    margin-left: 10px;
+}
+.ideaLine img{
+    width: 30px;
+}
