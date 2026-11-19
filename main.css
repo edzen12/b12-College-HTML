@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; 
+    font-style: normal;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin:0;
+}
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.textHeader{
+    background-color: #2e8bc8;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.textHeader ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textHeader ul li:first-child{
+    list-style-type:disc;   
+}
+.textHeader ul li::marker{
+     color: yellow;  
+     font-size: 18px;
+}
+/* menuHeader */
+.menuHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 270px;
+}
+.menuLi ul{
+    display: flex;
+}
+.menuLi li{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.menuLi li a{
+    color: black;
+    font-weight: bold;
+}
+.zayavka a{
+    background-color: #2e8bc8;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+}
+/* banner */
+.banner{
+    padding-top: 60px;
+    display: flex; 
+    background-color: #eaf7ff;
+}
+.bannerText{
+    width: 50%;
+}
+.bannerImage{
+    width: 50%;
+}
+.bannerImage img{
+    width: 80%;
+}
+.bannerText p:first-child{
+    text-transform: uppercase;
+    color: rgb(89, 132, 251);
+}
+.bannerText .bigBannerText{
+    font-size: 50px; 
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.bannerText .bigBannerText span{
+    color: rgb(89, 132, 251);
+}
+.bannerButton{
+    margin-top: 25px;
+}
+.bannerButton a{
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.bannerButton a:first-child{
+    background-color: rgb(89, 132, 251);
+    color: white;
+}
+.bannerButton a:last-child{
+    background-color: white;
+    color: black;
+}
+.bannerSmallText{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.bannerSmallText h4{
+    margin: 0;
+}
+.imgSmall{
+    display: flex;
+    margin-right: 50px;
+}
+.imgSmall img{
+    width: 40px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+/* Napravlenie */
+.Napravlenie{
+    margin-top: 50px;
+}
+.textNapravlenie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LeftTextNapravlenie{
+    width: 50%;
+}
+.LeftTextNapravlenie p{
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.LeftTextNapravlenie h1{
+    color: rgb(44, 44, 98); 
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.RightTextNapravlenie{
+    width: 50%;
+    color: gray;
+}
